@@ -1,0 +1,7 @@
+<h1>Restaurants#index</h1>
+<p><% @restaurants.each do |r| %></p>
+<%= link_to restaurant_path(r) do %>
+<p><%= r.name %></p>
+<% end %>
+<p><% end %></p>
+
